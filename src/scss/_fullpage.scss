@@ -1,0 +1,19 @@
+.fullpage {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.fullpage-section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.fullpage-content {
+  opacity: 0;
+  transition: all 2s;
+}
+
+.fullpage-section.is-visible .fullpage-content {
+  opacity: 1;
+}

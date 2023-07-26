@@ -53,5 +53,8 @@
   },
   "resolutions": {
     "gift": "@0.10.2"
+  },
+  "dependencies": {
+    "fullpage.js": "^4.0.20"
   }
 }

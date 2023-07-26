@@ -24,6 +24,7 @@
         "indent": "off",
         "quotes": "off",
         "no-console": "error",
+        "class-methods-use-this" :"off",
         "prettier/prettier": [
             "error",
             {
