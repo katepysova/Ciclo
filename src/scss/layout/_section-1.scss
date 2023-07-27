@@ -2,12 +2,23 @@
 
 .section-1 {
   .container {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+
+    @media only screen and (max-width: $bp-extra-large) {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
 
   .content {
     width: 100%;
+    height: 100%;
     background-image: linear-gradient(
         to right,
         rgba($color-black, 0.6),
@@ -17,11 +28,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 156px 0 156px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
   }
 
-  .heading-primary {
-    max-width: 464px;
-    margin-top: 32px;
+  .content-wrapper {
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 240px;
   }
 }

@@ -1,0 +1,16 @@
+.section-4 {
+  .container {
+    padding-top: 240px;
+    padding-bottom: 240px;
+
+    @media only screen and (max-width: $bp-extra-large) {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+}
