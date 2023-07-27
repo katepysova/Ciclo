@@ -1,6 +1,6 @@
 # Ciclo - landging page
 
-See demo deployed on Github Pages [Demo](link).
+See demo deployed on Github Pages [Demo](https://katepysova.github.io/Ciclo/).
 
 ## Installation
 
