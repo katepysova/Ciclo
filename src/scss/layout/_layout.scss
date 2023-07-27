@@ -30,6 +30,15 @@
     @media only screen and (max-width: $bp-extra-large) {
       left: 30px;
     }
+
+    @media only screen and (max-width: $bp-medium) {
+      left: 15px;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      height: 36px;
+      width: 3px;
+    }
   }
 
   &::after {
@@ -46,6 +55,15 @@
     @media only screen and (max-width: $bp-extra-large) {
       right: 30px;
     }
+
+    @media only screen and (max-width: $bp-medium) {
+      right: 15px;
+      font-size: 32px;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 24px;
+    }
   }
 
   &::before,
@@ -58,5 +76,20 @@
   @media only screen and (max-width: $bp-extra-large) {
     padding-left: 120px;
     padding-right: 120px;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }

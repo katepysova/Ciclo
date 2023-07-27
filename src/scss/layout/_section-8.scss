@@ -1,3 +1,5 @@
+@import "../variables";
+
 .section-8 {
   .content {
     display: flex;
@@ -5,7 +7,38 @@
     justify-content: stretch;
     height: 100%;
     width: 100%;
-    gap: 240px;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &__title {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        @media only screen and (max-width: $bp-large) {
+          font-size: 48px;
+          font-weight: 500;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+          font-size: 36px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .items {
+      display: flex;
+      gap: 80px;
+
+      @media only screen and (max-width: $bp-medium) {
+        gap: 36px;
+      }
+    }
 
     .column {
       &--2 {
@@ -15,18 +48,6 @@
         gap: 32px;
         flex-basis: 40%;
         padding: 24px 0;
-
-        .items {
-          margin-top: 190px;
-          display: flex;
-          gap: 80px;
-        }
-
-        .item {
-          display: flex;
-          flex-direction: column;
-          gap: 16px;
-        }
       }
 
       &--1 {

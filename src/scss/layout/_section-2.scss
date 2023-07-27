@@ -1,3 +1,5 @@
+@import "../variables";
+
 .section-2 {
   .content {
     display: flex;
@@ -5,7 +7,6 @@
     justify-content: stretch;
     height: 100%;
     width: 100%;
-    gap: 240px;
 
     .column {
       &--1 {
@@ -15,10 +16,6 @@
         gap: 32px;
         flex-basis: 40%;
         padding: 24px 0;
-
-        .paragraph {
-          margin-top: 98px;
-        }
       }
 
       &--2 {

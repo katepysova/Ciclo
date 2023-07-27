@@ -4,6 +4,34 @@
   overflow: hidden;
 }
 
+.u-margin-top-large {
+  margin-top: 120px;
+
+  @media only screen and (max-width: $bp-large) {
+    margin-top: 60px;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-top: 24px;
+  }
+}
+
+.u-gap {
+  gap: 240px;
+
+  @media only screen and (max-width: $bp-extra-large) {
+    gap: 120px;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    gap: 60px;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    gap: 48px;
+  }
+}
+
 .u-color-white {
   color: $color-white;
 }

@@ -39,5 +39,16 @@
     flex-direction: column;
     gap: 32px;
     margin-left: 240px;
+
+    @media only screen and (max-width: $bp-large) {
+      flex-basis: auto;
+      margin-left: 60px;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      max-width: 100%;
+      margin-left: 0;
+      padding: 24px;
+    }
   }
 }
