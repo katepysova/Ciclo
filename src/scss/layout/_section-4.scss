@@ -13,4 +13,25 @@
       padding-bottom: 60px;
     }
   }
+
+  .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 60%;
+    width: 100%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
 }

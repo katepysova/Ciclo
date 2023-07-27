@@ -32,6 +32,6 @@
   }
 
   .paragraph {
-    @include line-clip(2, $is-flex-item: true);
+    @include line-clip(3, $is-flex-item: true);
   }
 }
