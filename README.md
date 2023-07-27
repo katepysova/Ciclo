@@ -1,13 +1,12 @@
-# Pattern
+# Ciclo - landging page
 
-Short description.  
-[Demo](link).
+See demo deployed on Github Pages [Demo](link).
 
 ## Installation
 
 1. Clone this repo or downloand zip:
 
-   `git@github.com:katepysova/CV.git`
+   `git@github.com:katepysova/Ciclo.git`
 
 2. Change your current directory to this project directory.
 
@@ -39,10 +38,11 @@ Short description.
 ### How to fix dependency issue with `gulp-gh-pages`:
 
 Found the fix to this error!
+
 1. After you install gulp-gh-pages using npm, navigate to the below folder
 
 `node_modules\gulp-gh-pages\node_modules`
 
 2. delete `gift` folder under `gulp-gh-pages`
 
-3. Run `npm install gift`
+3. Run `npm install gift --save-dev`

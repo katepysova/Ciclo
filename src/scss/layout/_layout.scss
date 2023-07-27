@@ -32,7 +32,7 @@
     }
 
     @media only screen and (max-width: $bp-medium) {
-      left: 15px;
+      left: 16px;
     }
 
     @media only screen and (max-width: $bp-small) {
@@ -56,8 +56,12 @@
       right: 30px;
     }
 
+    @media only screen and (max-width: $bp-large) {
+      font-size: 48px;
+    }
+
     @media only screen and (max-width: $bp-medium) {
-      right: 15px;
+      right: 16px;
       font-size: 32px;
     }
 
