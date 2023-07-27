@@ -1,0 +1,35 @@
+.section-6 {
+  .content {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 100%;
+    width: 100%;
+    gap: 240px;
+
+    .column {
+      &--1,
+      &--2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &--1 {
+        gap: 32px;
+        flex-basis: 50%;
+      }
+
+      &--2 {
+        flex-basis: 50%;
+        gap: 60px;
+
+        .cards {
+          display: flex;
+          flex-direction: column;
+          gap: 60px;
+        }
+      }
+    }
+  }
+}
