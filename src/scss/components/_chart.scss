@@ -1,0 +1,52 @@
+@import "../variables";
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $color-grey;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__value {
+    color: $color-black;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__empty,
+  &__fullfilled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+  }
+
+  &__empty {
+    width: 100%;
+    z-index: -1;
+    background-color: rgba($color-black, 0.1);
+  }
+
+  &__fullfilled {
+    z-index: 1;
+    background-color: $color-black;
+  }
+}

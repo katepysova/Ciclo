@@ -1,7 +1,7 @@
 import FullPageObserver from "./fullpage.js";
 
 const sections = document.querySelectorAll(".fullpage-section");
-const SCROLL_TRESHOLD = 0.25;
+const SCROLL_TRESHOLD = 0.15;
 
 sections.forEach((section) => {
   const observer = new FullPageObserver(

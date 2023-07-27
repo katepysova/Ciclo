@@ -1,0 +1,27 @@
+@import "../variables";
+
+.section-1 {
+  .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .content {
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba($color-black, 0.6),
+        rgba($color-black, 0.6)
+      ),
+      url("../../images/section-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 156px 0 156px 240px;
+  }
+
+  .heading-primary {
+    max-width: 464px;
+    margin-top: 32px;
+  }
+}

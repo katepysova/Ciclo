@@ -9,11 +9,11 @@
   height: 100vh;
 }
 
-.fullpage-content {
+.fullpage-container {
   opacity: 0;
   transition: all 2s;
 }
 
-.fullpage-section.is-visible .fullpage-content {
+.fullpage-section.is-visible .fullpage-container {
   opacity: 1;
 }

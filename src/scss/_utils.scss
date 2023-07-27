@@ -1,3 +1,21 @@
+@import "./variables";
+
 .u-static {
   overflow: hidden;
+}
+
+.u-color-white {
+  color: $color-white;
+}
+
+.u-color-black {
+  color: $color-black;
+}
+
+.u-color-grey {
+  color: $color-grey;
+}
+
+.u-color-grey-light {
+  color: $color-grey-light;
 }
