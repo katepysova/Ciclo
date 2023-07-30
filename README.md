@@ -1,6 +1,6 @@
-# Ciclo - landging page
+# Ciclo - landing page
 
-See demo deployed on Github Pages [Demo](https://katepysova.github.io/Ciclo/).
+Doesn't support mobile layout. See demo deployed on Github Pages [Demo](https://katepysova.github.io/Ciclo/).
 
 ## Installation
 
